@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Hangman from './components/Hangman';
+import CongratulationsPage from './components/CongratulationsPage';
+import FailurePage from './components/FailurePage';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+    return (
+      <Router>
+        <Routes>
+          <Route path="/" element={<Hangman />} />
+          <Route path="/congratulations" element={<CongratulationsPage />} />
+          <Route path="/failure" element={<FailurePage />} />
+        </Routes>
+      </Router>
+    );
+};
 
 export default App;
