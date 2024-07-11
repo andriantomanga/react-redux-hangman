@@ -20,7 +20,7 @@ const FailurePage = () => {
             <h1>Malheureusement, vous avez échoué !</h1>
             <p>Vous êtes pendu.e !</p>
             <div>
-                <HangmanImages remainingAttemps={1} />
+                <HangmanImages remainingAttemps={11} />
             </div>
             <p>Le mot recherché était <b>{word}</b> ({definition})</p>
             <button onClick={handleReplay}>Rejouer</button>

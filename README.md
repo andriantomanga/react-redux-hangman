@@ -40,3 +40,7 @@ npm start
 ![Page de base](src/screenshots/screen1.PNG)
 ![Page de succès](src/screenshots/screen2.PNG)
 ![Page d'échec](src/screenshots/screen3.PNG)
+
+## Licence
+
+MIT
