@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 import wordsData from '../data/words.json';
 
-console.log("Words data: ", wordsData);
+export const INITIAL_ATTEMPTS = 8;
 
 const words = wordsData.map(entry => ({
     word: entry.word,
@@ -16,7 +16,7 @@ const getRandomWord = () => {
 const initialState = {
     ...getRandomWord(),          
     guessedLetters: [],     
-    remainingAttempts: 5,
+    remainingAttempts: INITIAL_ATTEMPTS,
     isWordGuessed: false   
 };
 
@@ -47,7 +47,7 @@ const hangmanSlice = createSlice({
             state.word = newWord.word;
             state.definition = newWord.definition;
             state.guessedLetters = [];
-            state.remainingAttempts = 5;
+            state.remainingAttempts = INITIAL_ATTEMPTS;
             state.isWordGuessed = false;
         }
     }

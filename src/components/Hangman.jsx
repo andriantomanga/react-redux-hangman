@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import {  useNavigate  } from 'react-router-dom';
+import { useNavigate  } from 'react-router-dom';
 import { guessLetter, resetGame }  from '../reducers';
+import HangmanImages from './HangmanImages';
+import './Hangman.css';
 
 const Hangman = () => {
     const dispatch          = useDispatch();
@@ -17,12 +19,11 @@ const Hangman = () => {
 
     const handleGuess = (event) => {
         const letter = event.target.value;
-        console.log("Mot à deviner :", word);
-        console.log("Définition :", definition);
         dispatch(guessLetter(letter));
     }
 
     useEffect(() => {
+        console.log(remainingAttemps);
         if (isWordGuessed) {
             navigate('/congratulations');
         } else if (remainingAttemps === 0) {
@@ -49,18 +50,21 @@ const Hangman = () => {
     };
 
     return (
-        <div>
+        <div className="hangman-container">
+        <div className="left-section">
             <h1>Jeu du Pendu</h1>
-            <p>Mot à deviner: {renderWord()}</p>
-            <p>Indice: {definition}</p>
-            <p>Essaies restants: {remainingAttemps}</p>
+            <p>Mot à deviner: <b>{renderWord()}</b></p>
+            <p>Indice: <b>{definition}</b></p>
             <div>
                 {renderAlphabet()}
             </div>
-            <div>
-                <button onClick={() => dispatch(resetGame())}>Réinitialiser le jeu</button>
-            </div>
+            <button onClick={() => dispatch(resetGame())}>Réinitialiser le jeu</button>
         </div>
+        <div className="right-section">
+            <HangmanImages remainingAttemps={remainingAttemps} />
+            <p>Essaies restants: <b>{remainingAttemps}</b></p>
+        </div>
+    </div>
     );
 };
 

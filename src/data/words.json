@@ -1,14 +1,82 @@
 [
     {
-       "word":"REACT",
-       "definition":"A JavaScript library for building user interfaces"
+       "word":"EINSTEIN",
+       "definition":"Physicien célèbre pour sa théorie de la relativité."
     },
     {
-       "word":"NODE",
-       "definition":"A JavaScript runtime built on Chrome's V8 JavaScript engine"
+       "word":"HIMALAYA",
+       "definition":"Chaîne de montagnes la plus haute du monde."
     },
     {
-       "word":"PYTHON",
-       "definition":"A high-level programming language known for its simplicity and readability"
+       "word":"PYRAMIDE",
+       "definition":"Monument égyptien en forme de polygone."
+    },
+    {
+       "word":"ATLANTIDE",
+       "definition":"Île mythique disparue sous l'eau."
+    },
+    {
+       "word":"BIGBEN",
+       "definition":"Horloge célèbre de Londres."
+    },
+    {
+       "word":"BERLIN",
+       "definition":"Capitale de l'Allemagne."
+    },
+    {
+       "word":"VENISE",
+       "definition":"Ville italienne célèbre pour ses canaux."
+    },
+    {
+       "word":"SALSA",
+       "definition":"Danse d'origine cubaine."
+    },
+    {
+       "word":"DARTAGNAN",
+       "definition":"Le plus célèbre des mousquetaires."
+    },
+    {
+       "word":"GOOGLE",
+       "definition":"Moteur de recherche le plus utilisé au monde."
+    },
+    {
+       "word":"MONALISA",
+       "definition":"Peinture célèbre de Léonard de Vinci."
+    },
+    {
+       "word":"OLYMPIADE",
+       "definition":"Jeux se tenant tous les quatre ans."
+    },
+    {
+       "word":"EVEREST",
+       "definition":"Sommet le plus élevé du monde."
+    },
+    {
+       "word":"WATERLOO",
+       "definition":"Bataille célèbre où Napoléon fut vaincu."
+    },
+    {
+       "word":"TITANIC",
+       "definition":"Paquebot célèbre pour avoir sombré en 1912."
+    },
+    {
+       "word":"VULCAIN",
+       "definition":"Dieu romain du feu et des volcans."
+    },
+    {
+       "word":"AMAZON",
+       "definition":"Forêt tropicale la plus vaste du monde."
+    },
+    {
+       "word":"NAPOLEON",
+       "definition":"Empereur français connu pour ses conquêtes."
+    },
+    {
+       "word":"ATLANTIQUE",
+       "definition":"Océan séparant l'Europe de l'Amérique."
+    },
+    {
+       "word":"BILLGATES",
+       "definition":"Cofondateur de Microsoft."
     }
  ]

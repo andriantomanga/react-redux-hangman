@@ -36,3 +36,63 @@
     transform: rotate(360deg);
   }
 }
+
+/* Styles pour le composant Hangman */
+.hangman-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Alignement vertical au début */
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.left-section {
+  flex: 1; /* Prendra 50% de l'espace disponible */
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.right-section {
+  flex: 1; /* Prendra 50% de l'espace disponible */
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+/* Styles pour les éléments spécifiques à chaque section */
+.alphabet_letter {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.word_letter {
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Style pour l'image dans la section de droite */
+.right-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Média query pour une meilleure réactivité */
+@media (max-width: 768px) {
+  .hangman-container {
+      flex-direction: column; /* Empile les sections verticalement sur les petits écrans */
+  }
+  .left-section, .right-section {
+      padding: 10px;
+  }
+}
+

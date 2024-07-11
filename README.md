@@ -33,3 +33,10 @@ Pour démarrer l'application en mode développement, exécutez :
 
 ```bash
 npm start
+```
+
+## Screenshots 
+
+![Page de base](src/screenshots/screen1.PNG)
+![Page de succès](src/screenshots/screen2.PNG)
+![Page d'échec](src/screenshots/screen3.PNG)
