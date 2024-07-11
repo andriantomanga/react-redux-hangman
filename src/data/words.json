@@ -1,0 +1,14 @@
+[
+    {
+       "word":"REACT",
+       "definition":"A JavaScript library for building user interfaces"
+    },
+    {
+       "word":"NODE",
+       "definition":"A JavaScript runtime built on Chrome's V8 JavaScript engine"
+    },
+    {
+       "word":"PYTHON",
+       "definition":"A high-level programming language known for its simplicity and readability"
+    }
+ ]

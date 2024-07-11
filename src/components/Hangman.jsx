@@ -7,6 +7,7 @@ const Hangman = () => {
     const dispatch          = useDispatch();
 
     const word              = useSelector((state) => state.hangman.word);
+    const definition        = useSelector((state) => state.hangman.definition);
     const guessedLetters    = useSelector((state) => state.hangman.guessedLetters);
     const remainingAttemps  = useSelector((state) => state.hangman.remainingAttempts);
 
@@ -16,6 +17,8 @@ const Hangman = () => {
 
     const handleGuess = (event) => {
         const letter = event.target.value;
+        console.log("Mot à deviner :", word);
+        console.log("Définition :", definition);
         dispatch(guessLetter(letter));
     }
 
@@ -49,6 +52,7 @@ const Hangman = () => {
         <div>
             <h1>Jeu du Pendu</h1>
             <p>Mot à deviner: {renderWord()}</p>
+            <p>Indice: {definition}</p>
             <p>Essaies restants: {remainingAttemps}</p>
             <div>
                 {renderAlphabet()}
