@@ -73,12 +73,31 @@
   font-size: 20px;
 }
 
-button {
+/* button {
   margin-top: 10px;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
   font-weight: bold;
+} */
+
+.button {
+  background-color: #007bff; /* Couleur de fond */
+  color: white; /* Couleur du texte */
+  border: none; /* Pas de bordure */
+  padding: 10px 20px; /* Espacement intérieur */
+  text-align: center; /* Alignement du texte */
+  text-decoration: none; /* Pas de soulignement */
+  display: inline-block; /* Affichage en ligne */
+  font-size: 16px; /* Taille du texte */
+  border-radius: 5px; /* Coins arrondis */
+  cursor: pointer; /* Curseur pointer */
+  transition: background-color 0.3s, transform 0.3s; /* Transition fluide */
+}
+
+.button:hover {
+  background-color: #0056b3; /* Couleur de fond au survol */
+  transform: scale(1.05); /* Zoom léger au survol */
 }
 
 /* Style pour l'image dans la section de droite */
