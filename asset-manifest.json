@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-redux-hangman/static/css/main.41203af8.css",
-    "main.js": "/react-redux-hangman/static/js/main.5f94f787.js",
+    "main.js": "/react-redux-hangman/static/js/main.57a97d9a.js",
     "static/js/453.6278b98b.chunk.js": "/react-redux-hangman/static/js/453.6278b98b.chunk.js",
     "index.html": "/react-redux-hangman/index.html",
     "main.41203af8.css.map": "/react-redux-hangman/static/css/main.41203af8.css.map",
-    "main.5f94f787.js.map": "/react-redux-hangman/static/js/main.5f94f787.js.map",
+    "main.57a97d9a.js.map": "/react-redux-hangman/static/js/main.57a97d9a.js.map",
     "453.6278b98b.chunk.js.map": "/react-redux-hangman/static/js/453.6278b98b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.41203af8.css",
-    "static/js/main.5f94f787.js"
+    "static/js/main.57a97d9a.js"
   ]
 }
