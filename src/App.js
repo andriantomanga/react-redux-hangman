@@ -6,7 +6,7 @@ import FailurePage from './components/FailurePage';
 
 const App = () => {
     return (
-      <Router>
+      <Router basename="/react-redux-hangman">
         <Routes>
           <Route path="/" element={<Hangman />} />
           <Route path="/congratulations" element={<CongratulationsPage />} />
