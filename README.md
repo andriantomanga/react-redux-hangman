@@ -1,7 +1,8 @@
 # 🎉 Jeu du Pendu en React avec Redux et React Router
 
+![React Version](https://img.shields.io/badge/React-18.3.1-blue)
 ![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)
-
+![React Redux Version](https://img.shields.io/badge/React%20Redux-9.1.2-blue)
 
 ## 🚀 Pour tester
 <a href="https://andriantomanga.github.io/react-redux-hangman" target="_blank">Voir le jeu en ligne</a>
